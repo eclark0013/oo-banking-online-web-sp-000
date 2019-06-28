@@ -7,7 +7,7 @@ class Transfer
     @receiver = receiver
     @status = "pending"
     @amount = amount
-    self.execute_transaction
+    # self.execute_transaction
   end
 
   def valid?
