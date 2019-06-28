@@ -10,6 +10,7 @@ class Transfer
   end
 
   def valid?
+    if sender.valid == true && receiver.valid == true
   end
 
   def execute_transaction
